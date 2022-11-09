@@ -15,10 +15,10 @@
   cd CAPLA
   ```
 
-- Unzip the "Source Code of CAPLA.zip", "envs.zip" files into the current directory, and create environment using files provided in `./envs` directory
+- Unzip the "SourceCode.zip", "envs.zip" files into the current directory, and create environment using files provided in `./envs` directory
 
   ```
-  unzip Source Code of CAPLA.zip
+  unzip SourceCode.zip
   unzip envs.zip
   cd envs
   conda env create -f capla_conda.yaml
