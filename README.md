@@ -11,13 +11,15 @@
 - In order to get CAPLA, you need to clone this repo:
 
   ```
-  git clone https://github.com/待补充
-  cd capla
+  git clone git@github.com:lennylv/CAPLA.git
+  cd CAPLA
   ```
 
-- Create environment using files provided in `./envs` directory
+- Unzip the "Source Code of CAPLA.zip", "envs.zip" files into the current directory, and create environment using files provided in `./envs` directory
 
   ```
+  unzip Source Code of CAPLA.zip
+  unzip envs.zip
   cd envs
   conda env create -f capla_conda.yaml
   pip install -r capla_pip.txt
@@ -35,14 +37,14 @@
 - Train your own model
 
   ```
-  cd capla/src
+  cd SourceCode/CAPLA/src
   python main.py
   ```
 
 - Show the result in paper &  Test your own dataset
 
   ```
-  cd capla/src
+  cd SourceCode/CAPLA/src
   python test.py testset (e.g., Test2016_290, Test2016_262)
   ```
 
